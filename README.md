@@ -1,7 +1,6 @@
 <h2> Hi, I'm asang24! <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
 
-<img align='right' src="https://images5.alphacoders.com/100/thumb-1920-1003109.jpg" width="280">
-
+<img align='right' src="https://images3.alphacoders.com/905/905276.jpg" width="280">
 <p>
   <em>
     Developer
@@ -21,7 +20,7 @@
 ```javascript
 const = {
   pronouns: "he" | "handsome guy",
-  code: [Javascript,Go, Python, Java],
+  code: [Go, Java],
   tools: [Ngix, Cloud, MQ, Netty, Kafka, K8s, Docker],
   architecture: ["microservices", "event-driven", "design system pattern"],
   databases:  ["Oracle", "MySql", "sqlite"],
@@ -29,4 +28,4 @@ const = {
 }
 ```
 
-<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> :)</em>
+<em><b>Be happy to meet you more!</b> :)</em>
