@@ -1,8 +1,6 @@
 <h2> Hi, I'm asang24! <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
 
-<!-- <img align='right' src="https://images3.alphacoders.com/905/905276.jpg" width="280"> -->
-
-<img align='right' src="https://images4.alphacoders.com/606/606667.jpg" width="280">
+<img align='right' src="https://images3.alphacoders.com/905/905276.jpg" width="280"> 
 
 <p>
   <em>
