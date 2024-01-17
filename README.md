@@ -16,8 +16,6 @@
 <!-- [![GitHub Thaiane](https://img.shields.io/github/followers/asang24?label=follow&style=social)](https://github.com/asang24) -->
 
 <br></br>
-<br></br>
-
 
 ###     A little more about me...  
 
