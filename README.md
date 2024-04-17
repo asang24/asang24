@@ -1,22 +1,46 @@
 # Hi, I'm asang24 👋
 
+
 ```python
 class SoftwareEngineer:
     def __init__(self):
-        self.name = "asang24"
-        self.pronouns: "handsome guy",
-        self.role = "Software Engineer"
-        self.code: [Go, Rust, Java],
-        self.tools: [Ngix, Cloud, MQ, Netty, Kafka, K8s, Docker],
-        self.currentFocus: "Building a personal knowledge system",
+        self.name = "asang24",
+        self.role = "Software Engineer",
+        self.pronouns = "handsome boy",
+        self.code = ["Go", "Rust", "Java"],
+        self.tools = ["Ngix", "Cloud", "MQ", "Netty", "Kafka", "K8s", "Docker"],
+        self.currentFocus = "Building a personal knowledge system",
         self.language_spoken = ["zh_CN", "en_US"]
 
-    def say_hi(self):
-        print("Hoping for Bug--, Money++ .")
+    def learnCarzy(self):
+        print(" Hoping for Bug--, Money++ ")
 
 me = SoftwareEngineer()
-me.say_hi()
+me.learnCarzy()
 ```
+
+<!-- 
+```go
+type SoftwareEngineer struct {
+    Asang24
+}
+func main(){
+    var self = SoftwareEngineer{
+        Asang24{
+            Name:  "asang24",
+            Role: "Software Engineer",
+            Pronouns: "handsome boy",
+            Code: ["Go", "Rust", "Java"],
+            Tools: ["Ngix", "Cloud", "MQ", "Netty", "Kafka", "K8s", "Docker"],
+            CurrentFocus: "Building a personal knowledge system",
+            Language_spoken:  ["zh_CN", "en_US"]
+        },
+    }
+    self.learnCarzy()
+    fmt.Println(" Hoping for Bug--, Money++ ")
+}
+```
+-->
 
 ## 📝 Blogs
 
