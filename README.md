@@ -7,10 +7,10 @@ class SoftwareEngineer:
         self.name = "asang24",
         self.role = "Software Engineer",
         self.pronouns = "handsome boy",
-        self.code = ["Go", "Rust", "Java"],
-        self.tools = ["Ngix", "Cloud", "MQ", "Netty", "Kafka", "K8s", "Docker"],
+        self.code = "Go, Rust, Java",
+        self.tools = "Ngix, Cloud, MQ, Netty, Kafka, K8s, Docker",
         self.currentFocus = "Building a personal knowledge system",
-        self.language_spoken = ["zh_CN", "en_US"]
+        self.language_spoken = "zh_CN, en_US"
 
     def learnCarzy(self):
         print(" Hoping for Bug--, Money++ ")
@@ -22,22 +22,35 @@ me.learnCarzy()
 <!-- 
 ```go
 type SoftwareEngineer struct {
-    Asang24
+    Name        string
+    ContactInfo ContactInfo
 }
-func main(){
-    var self = SoftwareEngineer{
-        Asang24{
-            Name:  "asang24",
-            Role: "Software Engineer",
-            Pronouns: "handsome boy",
-            Code: ["Go", "Rust", "Java"],
-            Tools: ["Ngix", "Cloud", "MQ", "Netty", "Kafka", "K8s", "Docker"],
-            CurrentFocus: "Building a personal knowledge system",
-            Language_spoken:  ["zh_CN", "en_US"]
-        },
-    }
-    self.learnCarzy()
-    fmt.Println(" Hoping for Bug--, Money++ ")
+type ContactInfo struct {
+    Role            string
+    Pronouns        string
+    Code            string
+    Tools           string
+    CurrentFocus    string
+    Language_spoken string
+}
+
+func main() {
+    me := SoftwareEngineer{
+        Name: "asang24",
+        ContactInfo: ContactInfo{
+            Role:            "Software Engineer",
+            Pronouns:        "Handsome boy",
+            Code:            "Go, Rust",
+            Tools:           "Ngix, Docker, Kubernetes, Cloud, MQ, Netty, Kafka",
+            CurrentFocus:    "Building a personal knowledge system",
+            Language_spoken: "zh_CN, en_US",
+		},
+	}
+    me.learnCarzy()
+}
+
+func (s *SoftwareEngineer) learnCarzy() {
+    fmt.Printf("%s Hoping for Bug--, Money++ \n", s.Name)
 }
 ```
 -->
