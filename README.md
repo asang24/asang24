@@ -4,7 +4,7 @@
 ```python
 class SoftwareEngineer:
     def __init__(self):
-        self.name = "asang24",
+        self.name = "dev24hrs",
         self.role = "Software Engineer",
         self.pronouns = "handsome boy",
         self.code = "Go, Rust, Java",
