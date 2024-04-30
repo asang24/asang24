@@ -36,7 +36,7 @@ type ContactInfo struct {
 
 func main() {
     me := SoftwareEngineer{
-        Name: "asang24",
+        Name: "dev24hrs",
         ContactInfo: ContactInfo{
             Role:            "Software Engineer",
             Pronouns:        "Handsome boy",
@@ -57,9 +57,9 @@ func (s *SoftwareEngineer) learnCarzy() {
 
 ## 📝 Blogs
 
-- Personal website and blog: https://asang24-blog.pages.dev
-- Personal blog config by Docusaurus: https://asang24-blog.pages.dev/docs/Mac/Blog_Config
-- Personal Workflow setup on Mac: https://asang24-blog.pages.dev/docs/Mac/Mac_Workflow
+- Personal website and blog: https://dev24hrs-blog.pages.dev
+- Personal blog config by Docusaurus: https://dev24hrs-blog.pages.dev/docs/Mac/Blog_Config
+- Personal Workflow setup on Mac: https://dev24hrs-blog.pages.dev/docs/Mac/Mac_Workflow
   
 
 ## 🔧 Technologies & Tools
