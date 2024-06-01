@@ -1,25 +1,6 @@
 # Hi, I'm dev24hrs 👋
 
-
-```python
-class SoftwareEngineer:
-    def __init__(self):
-        self.name = "dev24hrs",
-        self.role = "Software Engineer",
-        self.pronouns = "handsome boy",
-        self.code = "Go, Rust, Java",
-        self.tools = "Ngix, Cloud, MQ, Netty, Kafka, K8s, Docker",
-        self.currentFocus = "Building a personal knowledge system",
-        self.language_spoken = "zh_CN, en_US"
-
-    def learnCarzy(self):
-        print(" Hoping for Bug--, Money++ ")
-
-me = SoftwareEngineer()
-me.learnCarzy()
-```
-
-<!-- 
+<!--
 ```go
 type SoftwareEngineer struct {
     Name        string
@@ -33,27 +14,29 @@ type ContactInfo struct {
     CurrentFocus    string
     Language_spoken string
 }
-
+```
+-->
+```go
 func main() {
-    me := SoftwareEngineer{
-        Name: "dev24hrs",
-        ContactInfo: ContactInfo{
-            Role:            "Software Engineer",
-            Pronouns:        "Handsome boy",
-            Code:            "Go, Rust",
-            Tools:           "Ngix, Docker, Kubernetes, Cloud, MQ, Netty, Kafka",
-            CurrentFocus:    "Building a personal knowledge system",
-            Language_spoken: "zh_CN, en_US",
-		},
-	}
-    me.learnCarzy()
+    dev24hrs := SoftwareEngineer{
+      Name: "dev24hrs",
+      ContactInfo: ContactInfo{
+        Role:            "gopher",
+        Pronouns:        "Handsome boy",
+        Code:            "Go, Rust",
+        Tools:           "Ngix, Docker, Kubernetes, Cloud, MQ, Netty, Kafka",
+        CurrentFocus:    "Building a personal knowledge system",
+        Language_spoken: "zh_CN, en_US",
+      },
+    }
+    dev24hrs.learnCarzy()
 }
 
 func (s *SoftwareEngineer) learnCarzy() {
     fmt.Printf("%s Hoping for Bug--, Money++ \n", s.Name)
 }
 ```
--->
+
 
 ## 📝 Blogs
 
